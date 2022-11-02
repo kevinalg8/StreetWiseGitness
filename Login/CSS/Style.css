@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;;
+}
+.Padre{
+  background-color: rgb(141, 141, 141);
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.Hija{
+  background: brown;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 80%;
+  border-radius: 1rem;
+  box-shadow: 1rem 2rem 2rem rgb(80, 80, 80);
+}
+.Hija img{
+  width: 9rem;
+  height: 9rem;
+  min-width: none;
+  min-height: auto;
+}
+.Hija h1{
+  font-size: 2rem;
+  padding: 2rem;
+}
+.Hija input{
+  width: 20rem;
+  height: 2rem;
+  min-width: none;
+  min-height: auto;
+  border: none;
+  outline: 1px solid black;
+  text-align: center;
+  font: 'Source Code Pro', monospace;
+}
+.Hija button{
+  margin-top: 15px;
+  height: 3em;
+  width: 10em;
+}
