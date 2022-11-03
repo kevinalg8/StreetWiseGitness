@@ -49,6 +49,7 @@
   color: rgb(0, 0, 0);
   height: 3em;
   width: 10em;
+  cursor: pointer;
 }
 #Persona{
   width: 15rem;
