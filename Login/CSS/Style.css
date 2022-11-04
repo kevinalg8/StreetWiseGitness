@@ -20,9 +20,10 @@
   align-items: center;
   text-align: center;
   width: 40%;
-  height: 80%;
+  height: 70%;
   border-radius: 1rem;
   box-shadow: 1rem 2rem 2rem rgb(80, 80, 80);
+  gap:
 }
 .Hija img{
   width: 9rem;
