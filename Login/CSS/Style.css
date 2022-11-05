@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .Padre{
-  background-color: rgb(141, 141, 141);
+  background-image: url("../IMG/imagen2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
@@ -13,17 +17,16 @@
   justify-content: center;
 }
 .Hija{
-  background: brown;
+  background: rgb(255, 255, 255, 0.3);
   display:flex;
   flex-flow: column nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
   width: 40%;
   height: 70%;
   border-radius: 1rem;
-  box-shadow: 1rem 2rem 2rem rgb(80, 80, 80);
-  gap:
+  gap: 12px;
 }
 .Hija img{
   width: 9rem;
@@ -32,27 +35,39 @@
   min-height: auto;
 }
 .Hija h1{
-  font-size: 2rem;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
 }
 .Hija input{
   width: 20rem;
-  max-width: 20rem;
   height: 3rem;
   border: none;
-  outline: 1px solid black;
+  outline: none;
+  border-bottom:2px solid red ;
+  background: none;
   text-align: center;
-  font: 'Source Code Pro', monospace;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0, 1);
 }
+
+.Hija input::placeholder{
+  color:white;
+}
+
 .Hija button{
-  border:1px solid rgb(0, 0, 0);
-  border-radius: 2rem;
-  background-color: rgb(95, 95, 95);
-  color: rgb(0, 0, 0);
+  border:0.5px solid;
+  border-radius: 1rem;
+  background-color: rgb(250, 115, 70);
+  color: rgb(255, 255, 255);
   height: 3em;
   width: 10em;
   cursor: pointer;
+  font-weight: 700;
 }
+
 #Persona{
+  padding: 5px;
+  height: 3.5rem;
   width: 15rem;
   margin-bottom: 1rem;
 }
