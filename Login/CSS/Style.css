@@ -20,7 +20,7 @@
   background: rgb(255, 255, 255, 0.3);
   display:flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   width: 40%;
@@ -70,4 +70,75 @@
   height: 3.5rem;
   width: 15rem;
   margin-bottom: 1rem;
+}
+@media screen and (max-width:480px){
+  .Padre{
+    height: 100vh;
+  }
+  .Hija{
+    width: auto;
+    height: auto;
+  }
+  .Hija h1{
+    font-size: 2.5rem;
+  }
+  .Hija input{
+    width: 75%;
+    font-size: 1rem;
+  }
+  .Hija input::placeholder{
+    color: blanchedalmond;
+  }
+  .Hija button{
+    font-weight: 700;
+    width: 10em;
+  }
+}
+@media screen and (max-width:1024px){
+  .Padre{
+    height: 100vh;
+  }
+  .Hija{
+    width: auto;
+    height: auto;
+    padding: 5%;
+  }
+  .Hija h1{
+    font-size: 2.5rem;
+  }
+  .Hija input{
+    width: 75%;
+    font-size: 1.5rem;
+  }
+  .Hija input::placeholder{
+    color: blanchedalmond;
+  }
+  .Hija button{
+    font-weight: 700;
+    width: 10em;
+  }
+}
+@media  screen and (max-width:1200px){
+  .Padre{
+    height: 100vh;
+  }
+  .Hija{
+    width: 80%;
+    height: 90%;
+  }
+  .Hija h1{
+    font-size: 5rem;
+  }
+  .Hija input{
+    width: 70%;
+    font-size: 2rem;
+  }
+  .Hija input::placeholder{
+    color: blanchedalmond;
+  }
+  .Hija button{
+    font-size: 1rem;
+    font-weight: 700;
+    width: 20rem;
+  }
 }
